@@ -75,8 +75,22 @@ img {
     margin-right: auto;
     width: 200px;  
     height: auto;  
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 50%;  /* Set the width of the title */
+    margin-left: auto;
+    margin-right: auto;
+}
 
 nav {
-    padding: 5px;  
+    width: 50%;  /* Same width as the title */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
