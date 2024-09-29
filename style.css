@@ -60,13 +60,17 @@ p, ul {
     margin: 0 20px;
 }
 
+/* Corrected img rule with closing bracket */
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;  
     width: 200px;  
-{
+    height: auto;  /* Added height auto to maintain aspect ratio */
+}
+
+/* Email link styling */
 #kapcsolat a {
     font-size: 1.2em;      
     color: #2B1700;        
@@ -77,7 +81,9 @@ img {
     text-decoration: underline;  
 }
 
+/* Email section styling */
 #kapcsolat {
     padding: 20px;
     text-align: center;  /* Center the email address */
 }
+
