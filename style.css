@@ -77,3 +77,7 @@ img {
     height: auto;  /* Maintains the aspect ratio */
 }
 
+nav {
+    padding: 10px;  /* Adjust the padding for the overall navigation bar */
+}
+
