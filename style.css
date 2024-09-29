@@ -11,17 +11,17 @@ header h1 {
     font-size: 2.5em;
     font-weight: bold;
     margin-top: 20px;
-    width: 50%;  /* Sets the same width for the header */
+    width: 50%;  
     margin-left: auto;
     margin-right: auto;
 }
 
 nav {
-    width: 50%;  /* Sets the same width for the navigation */
+    width: 50%;  
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-bottom: 90px;  /* Space between table of contents and the content below */
+    margin-bottom: 90px;  
 }
 
 nav ul {
@@ -68,16 +68,15 @@ img {
     width: 200px;  
 {
 #kapcsolat a {
-    font-size: 1.2em;      /* Make the email text slightly bigger */
-    color: #2B1700;        /* Ensure the color matches the rest of the content */
-    text-decoration: none; /* Remove the underline from the email link */
+    font-size: 1.2em;      
+    color: #2B1700;        
+    text-decoration: none; 
 }
 
 #kapcsolat a:hover {
-    text-decoration: underline;  /* Underline the email when hovering over it */
+    text-decoration: underline;  
 }
 
-/* Add some padding around the email section to make sure it's visible */
 #kapcsolat {
     padding: 20px;
     text-align: center;  /* Center the email address */
