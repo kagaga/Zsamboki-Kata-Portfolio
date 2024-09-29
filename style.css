@@ -60,11 +60,25 @@ p, ul {
     margin: 0 20px;
 }
 
-/* Single rule for all image styling */
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%;  /* Images will resize based on screen size */
-    width: 200px;  /* Fixed width fo
+    max-width: 100%;  
+    width: 200px;  
+{
+#kapcsolat a {
+    font-size: 1.2em;      /* Make the email text slightly bigger */
+    color: #2B1700;        /* Ensure the color matches the rest of the content */
+    text-decoration: none; /* Remove the underline from the email link */
+}
 
+#kapcsolat a:hover {
+    text-decoration: underline;  /* Underline the email when hovering over it */
+}
+
+/* Add some padding around the email section to make sure it's visible */
+#kapcsolat {
+    padding: 20px;
+    text-align: center;  /* Center the email address */
+}
